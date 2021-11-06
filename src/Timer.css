@@ -1,0 +1,51 @@
+.timer_wrapper {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 6px;
+  padding-top: 30vh;
+}
+
+.controls_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.timer_display {
+  font-size: 83px;
+  margin-bottom: 60px;
+  color: rgb(94, 92, 230);
+}
+
+.timer_display_running {
+  color: rgb(191, 90, 242);
+}
+
+.timer_button {
+  border: none;
+  background-color: rgb(10, 132, 255);
+  color: white;
+  height: 60px;
+  width: 80px;
+  border-radius: 20px;
+  /* font-size: 20px; */
+  padding: 0px;
+  cursor: pointer;
+}
+
+.timer_button:hover {
+  background-color: rgb(50, 173, 230);
+}
+
+.timer_button:active {
+  background-color: rgb(21, 95, 231);
+}
+
+.timer_button:disabled {
+  background-color: whitesmoke;
+  color: gray;
+}

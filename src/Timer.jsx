@@ -1,5 +1,5 @@
 import React from 'react';
-import FeatherIcon from 'feather-icons-react';
+// import FeatherIcon from 'feather-icons-react';
 import './Timer.css';
 
 const getOnlyHours = (number) =>
@@ -52,17 +52,20 @@ const Timer = (props) => {
           onClick={startTimer}
           disabled={running}
         >
-          <FeatherIcon icon="play" size="24" />
+          {/* <FeatherIcon icon="play" size="24" /> */}
+          Start
         </button>
         <button
           className="timer_button"
           onClick={stopTimer}
           disabled={!running}
         >
-          <FeatherIcon icon="pause" size="24" />
+          {/* <FeatherIcon icon="pause" size="24" /> */}
+          Stop
         </button>
         <button className="timer_button" onClick={resetTimer}>
-          <FeatherIcon icon="x-octagon" size="24" />
+          {/* <FeatherIcon icon="x-octagon" size="24" /> */}
+          Reset
         </button>
       </div>
     </div>
